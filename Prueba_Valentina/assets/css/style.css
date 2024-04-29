@@ -1,0 +1,46 @@
+body {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    background-image: url('http://m.gettywallpapers.com/wp-content/uploads/2020/05/Harry-Potter-Computer-Wallpaper-1536x864.jpg');
+    background-size: contain;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 15px;
+    background-color: rgba(134, 123, 123, 0.541);
+    border-radius: 8px;
+}
+.menu {
+    display: flex;
+    justify-content:center;
+    margin-bottom: 10px; 
+}
+.menu select {
+    padding: 8px;
+    font-size: 20px;
+    background-color: #f9f9f9;
+    border-radius: 4px;
+}
+h1 {
+    text-align: center;
+    color: #000000;
+}
+
+#personajesContainer {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+}
+
+.personaje-card {
+    background-color: #cec3c3;
+    padding: 5px;
+    border: 1px solid #000000;
+    border-radius: 4px;
+    margin-bottom: 15px;
+    text-align: center;
+}
